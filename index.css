@@ -1,0 +1,162 @@
+
+body {
+
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Top Nav and Logo */
+
+#logo {
+
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 69px; 
+
+}
+
+ul li {
+    
+    display: inline;
+    text-decoration: underline;
+
+    
+}
+
+
+
+.container {
+
+display: flex;
+margin: auto;
+
+}
+
+.container#navbar {
+justify-content: space-between;
+ 
+}
+
+/*Our Mission image and message */
+
+.hero {
+
+    background-image: url("./images/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    margin: auto;  
+}
+
+.mission {
+
+    background-color: black;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+h2 { 
+
+    margin-bottom: 0;
+    
+}
+
+/*Tea of the Month */
+
+.tea {
+    
+    justify-content: center;
+    margin-top: 69px;
+    flex-direction: column;
+
+}
+
+#imagesTom  {
+
+    width: 300px;
+    height: 200px;
+    
+
+    
+    
+}
+
+.team {
+   flex-wrap: wrap;
+   width: 950px;
+   justify-content: space-between;
+   
+ 
+}
+
+#teamrow2 {
+    width: 620px;
+}
+
+.teaheaders {
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.locations {
+
+    background-image: url("./images/img-locations-background.jpg");
+    height: 500px;
+    max-width: 1200px;
+    align-items: center;
+    background-position: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+#splocations {
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 15px;
+   
+}
+
+.box {
+   
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    
+}
+
+#locations {
+
+    margin-top: 130px;
+}
+
+.footer {
+
+height: 100px;
+    max-width: 1200px;
+    align-items: center;
+    background-position: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+#footer {
+
+    margin-left: 20px;
+    text-align: left;
+}
